@@ -54,17 +54,6 @@ body {
   padding: 20px;
 }
 
-.footer {
-  background-color: black;
-}
-
-.box {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  margin: 20px;
-}
 
 .h2 {
   width: 100vw;
@@ -72,10 +61,34 @@ body {
   text-align: center;
 }
 
-.imagen {
-  height: 50px;
+.box {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+
 }
 
-/*.text {
-  text-align: left;
-}*/
+.imagen {
+  width: 20vw;
+  height: 10vh;
+  padding: 10px;
+
+
+}
+
+.text {
+  font-size: 14px;
+ text-align: left;
+ padding: 10px;
+}
+
+.footer {
+  background-color: black;
+}
+
+.small{
+  color: aliceblue;
+}
