@@ -16,6 +16,10 @@ body {
   background-color: black;
 }
 
+.tablet_menu {
+  display: none;
+}
+
 .logo {
   height: 30px;
   margin: 15px;
@@ -118,12 +122,39 @@ justify-content: space-between;
   justify-content: end;
 }*/
 
-
-
-
 .small flag {
 /*resolver tamañao banderita*/
 
 }
 
 .small line_left {}
+
+@media (min-width: 736px){
+  .menu_header {
+    display: none;
+  }
+  .tablet_menu {
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    margin: 15px;
+    align-items: center;
+  
+  }
+  .tablet_menu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    
+    
+  }
+  .tablet_menu li {
+    display: flex;
+    right: 15;
+  }
+}
+
+@media (min-width: 1024px){
+  
+}
