@@ -5,7 +5,7 @@
 }
 
 :root {
-  --text-color: white;
+  -webkit-text-fill-color: aliceblue;
 }
 
 body {
@@ -40,17 +40,26 @@ body {
 
 .section1 {
   height: 50vh;
-  background-image: url(../images/premium_dancer.png);
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: contain;
   background-color: cornflowerblue;
 }
 
 .titulo_h1 {
   color: var(--text-color);
-  padding: 30px 200px 30px 15px;
-  font-size: 55px;
+  width: 100vw;
+  padding: 40px 10px 30px 15px;
+  font-size: 3rem;
+}
+
+.text_hero{
+  color: var(--text-color);
+  width: 100vw;
+  padding: 10px 10px 30px 15px;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.text_hero_small{
+
 }
 
 .section2 {
@@ -135,7 +144,7 @@ justify-content: space-between;
   }
   .tablet_menu {
     display: flex;
-    color: white;
+    color: aliceblue;
     justify-content: space-around;
     margin: 15px;
     align-items: center;
@@ -153,6 +162,16 @@ justify-content: space-between;
     display: flex;
     right: 15;
   }
+  
+  .section1 {
+    height: 50vh;
+    background-image: url(../images/premium_dancer.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    background-color: cornflowerblue;
+  }
+
 }
 
 @media (min-width: 1024px){
